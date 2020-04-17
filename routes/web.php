@@ -56,3 +56,7 @@ Route::post('/employee/update','EmployeeController@update')->name('employees.upd
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//User
+Route::get('/user', 'UserController@index')->name('user.index');
